@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<br><br><br>
+{% csrf_token %}
+<h1>Result</h1>
+      <p>Detected Object is: {{res}}</p>
+
+{% endblock %}
